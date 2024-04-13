@@ -18,15 +18,6 @@ document.addEventListener('keypress',function(){
     }
 });
 
-document.addEventListener('click',function(){
-    if(started==false)
-    {
-        console.log('started');
-        started=true;
-
-        levelUp();
-    }
-});
 function levelUp()
 {
     userSeq=[];
@@ -76,9 +67,8 @@ function checkSeq(idx)
         setTimeout(function(){
             document.querySelector('body').style.backgroundColor='white';
         },250);
-        h3=document.querySelector('h3');
         if(level>highest)
-            h3.innerText=`Highest Score : ${level}`;
+        document.querySelector('h3').innerText=`Highest Score : ${level}`;
         reset();
     }
 }
