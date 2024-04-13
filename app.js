@@ -18,6 +18,15 @@ document.addEventListener('keypress',function(){
     }
 });
 
+document.addEventListener('click',function(){
+    if(started==false)
+    {
+        console.log('started');
+        started=true;
+
+        levelUp();
+    }
+});
 function levelUp()
 {
     userSeq=[];
