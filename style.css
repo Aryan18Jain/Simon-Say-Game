@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.instruction{
+    height: 50px;
+    width: 30%;
+}
+.heading{
+    width: 40%;
+}
+.highest{
+    width: 30%;
+}
+.btn-container{
+    display: flex;
+    height: 360px;
+    width: 360px;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.btn{
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+    border: 5px solid black;
+    margin: 10px;
+}
+.red{
+    background-color: #d95980;
+}
+.green{
+    background-color: #63aac0;
+}
+.yellow{
+    background-color: #f99b45;
+}
+.blue{
+    background-color: #819ff9;
+}
+.flash{
+     background-color: white;
+}
